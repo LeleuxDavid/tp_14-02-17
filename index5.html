@@ -22,7 +22,20 @@
 
     <div id="contenu">
       <h2>FoldiMate, une machine qui plie le linge toute seule. Elle défroisse, plie et peut parfumer le linge</h2>
-      <a href="https://www.foldimate.com/">Foldimate</a>
+      <form method="post" action="traitement.php">
+           <p>
+             <label for="name">Votre nom :</label>
+             <input type="text" name="nom" id="nom" />
+           </p>
+           <p>
+             <label for="prenom">Votre prénom :</label>
+             <input type="text" name="prenom" id="prenom" />
+           </p>
+           <p>
+             <label for="email">Votre adresse e-mail :</label>
+             <input type="email" />
+           </p>
+       </form>
     </div>
 
     <p id="footer"></p>
